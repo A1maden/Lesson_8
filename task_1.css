@@ -4,20 +4,72 @@
 	padding: 0;
 }
 
+body
+{
+	min-width: 100px;
+}
+
 .yellowblock
 {
-	width: 60%;
+	width: 95%;
+	max-width: 800px;
 	background: #ffce4e;
 	height: 54px;
 	margin: 10px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
-.yellowblock:before
+.yellowblock:after
 {
-	content: "";
-	display: inline-block;
-	border: 7px solid transparent yellow yellow transparent;
-	height: 14px;
-	width: 14px;
+	content: " ";
 	margin-left: 100%;
+	display: inline-block;
+	border: 27px solid transparent;
+	margin-top: -52px;
+	border-left: 17px solid #ffce4e;
+	float: left;
+}
+
+.whitebord
+{
+	background: white;
+	height: 28px;
+	width: 70%;
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+	border: 1px solid #a2a2a2;
+}
+
+.checkbox_1
+{
+	margin-top: 34px;
+	margin-left: -70%;
+	float: left;
+}
+.checkbox_2
+{
+	font-size: 14px;
+	color: black;
+	vertical-align: middle;
+	margin-right: 4px;
+}
+
+
+.submit_1
+{
+	float: left;
+	margin-left: 10px;
+	margin-top: 6px;
+	height: 28px;
+	width: 70px;
+	border-radius: 2px;
+	border: 1px solid #a2a2a2;
+	background: #f2f2f2;
+}
+
+.clearfix
+{
+	clear: both;
 }
